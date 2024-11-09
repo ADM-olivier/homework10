@@ -1,36 +1,147 @@
 body{
     margin: 0 auto;
     height: 100%;
-    max-height: 1721px;
-    width: 100%;
-    max-width:px 1366;
+    padding: 0; 
+    margin: 0; 
+}
+#wrapper{
+    width: 1366px;
+    flex-basis: 1721px;
     border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-evenly;
+    row-gap: 50px;
+    flex-wrap: nowrap;
 }
-h3{
-    width: 60px;
-    height: 21px;
-    color: #5863F8;
-    font-size: 14px;
-    position: absolute;
-    margin-top: 53px;
-    margin-left: 139px;
-}
-h1{
+header{
     width: 378px;
-    height: 116px;
-    color: #000000;
-    font-size: 42px;
-    position: absolute;
-    margin-top: 74px;
+    height: 137px;
     margin-left: 139px;
+    margin-top: 74px;
+    margin-right: 849px;
 }
-#description{
+#input{
+    width: 1088px;
+    height: 288px;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-between;
+}
+#descr{
     width: 720px;
     height: 288px;
-    margin-top: 239px;
-    margin-left: 139px;
-    position: absolute;
 }
+#description{
+    position: absolute;
+    width: 720px;
+    height: 288px;
+    border-color: #e8e8e8;
+    border-width: 2px;
+    border-style: solid;
+    background: #f8f8f8
+}
+#inputContainer{
+    width: 352px;
+    height: 288px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: nowrap column;
+}
+input{
+    width: 352px;
+    height: 60px;
+    border-color: #f8f8f8;
+    border-width: 2px;
+    border-style: solid;
+    background: #f8f8f8;
+}
+#send{
+    background-color: #5863f8;
+    text-align: center;
+}
+input::placeholder{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+/* this is for input styling */
+
+
+
+
+
+
+
+
+#contacts{ 
+    row-gap: 50px;
+    width: 1108px;
+    height: 147px; 
+    margin-top: 50px;
+    border: 2px solid black;
+}
+
+
+
+
+/* this is for contacts styling */
+#latestphotos{
+    width: 544px;
+    height: 137px;
+    margin-top: 50px;
+}
+#photos{
+    flex-basis: 1366px;
+    height: 352px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+div img{
+    margin-right: 60px;
+}
+#photos > div{
+    width: 352px;
+    height: 352px; 
+}
+
+
+/* here to style img */
+footer{
+    margin-top: -35px;
+    width: 1366px;
+    height: 395px;
+    background: #121212
+}
+
+
+/* here we start styling our elements */
+
+
+
+h3{
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    color: #5863f8;
+}
+h1, h2{
+    font-family: "Poppins";
+    font-size: 42px;
+    font-weight: normal;
+    line-height: 56px;
+    font-style: normal;
+    text-align: left;
+    color: #000000;
+}
+
+
 
 
 

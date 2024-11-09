@@ -6,28 +6,60 @@
         <title>homework 10</title>
     </head>
     <body>
-        <header>
-            <h3>Contact</h3>
-            <h1>Contact us to get<p>free support</p></h1>
-        </header>
-        <main>
-            <form action="">
-                <label for="description"></label>
-                <input type="text" id="description" placeholder="description" name="description">
-                <div id="inputContainer">
-                    <input type="text" id="subject" placeholder="subject" name="subject" required> 
-                    <label for="subject"></label>
-                    <input type="text" id="name" placeholder="name" name="name" required>
-                    <label for="name"> </label>
-                    <input type="email" id="email" placeholder="email" name="email" required>
-                    <label for="email"></label>
-                    <input type="submit" id="send" value="send" placeholder="send" name="send">
-                    <label for="send"></label>
-                </div>
-            </form>
-        </main>
-        <footer>
+        <div id="wrapper">
+            <header>
+                <h3>Contact</h3>
+                <h1>Contact us to get<p>free support</p></h1>
+            </header> 
+            <main>
+                <form>
+                <div id="input">
+                    <div id="descr">
+                    <label for="description"></label>
+                    <input type="text" id="description" placeholder="description" name="description">
+                    </div>
+                    <div id="inputContainer">
+                        <input type="text" id="subject" placeholder="subject" name="subject" required> 
+                        <label for="subject"></label>
 
-        </footer>
+                        <input type="text" id="name" placeholder="name" name="name" required>
+                        <label for="name"> </label>
+
+                        <input type="email" id="email" placeholder="email" name="email" required>
+                        <label for="email"></label>
+
+                        <input type="submit" id="send" value="send" placeholder="send" name="send">
+                        <label for="send"></label>
+                    </div>
+                </div>
+                </form>
+                <div id="contacts">
+            
+
+
+                </div>
+                <!-- this is for photos and h2 and h3  -->
+                <div id="latestphotos" >
+                    <h3>Photos</h3>
+                    <h2>See out latest photos <br> from restaurant and hotel</h2>
+                </div> 
+                <div id="photos">
+                    <div id="photoone">
+                        <img src="photos/firstimg.png" alt="">
+                    </div>
+
+                    <div id="phototwo"> 
+                        <img src="photos/secondimg.png" alt="">
+                    </div>
+                    <div id="photo three">
+                        <img src="photos/thirdimg.png" alt="">
+                    </div>
+                </div>
+            </main>
+            <footer>
+
+
+            </footer>
+        </div>    
     </body>
 </html>
